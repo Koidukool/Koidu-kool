@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="et">
+<head>
+  <meta charset="UTF-8">
+  <title>Koidu Kool – Haridusplatvorm</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f9f9f9;
+    }
+    header {
+      background-color: #0077cc;
+      color: white;
+      padding: 1rem;
+      text-align: center;
+    }
+    nav {
+      background-color: #005fa3;
+      display: flex;
+      justify-content: center;
+      padding: 0.5rem;
+      flex-wrap: wrap;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0.5rem 1rem;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    section {
+      padding: 2rem;
+    }
+    table, th, td {
+      border: 1px solid #ccc;
+    }
+    th, td {
+      padding: 0.5rem;
+      text-align: center;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 1rem;
+    }
+    .teacher-card {
+      background-color: #ffffff;
+      padding: 1.5rem;
+      margin: 1rem auto;
+      max-width: 800px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      border-left: 4px solid #0077cc;
+    }
+    .teacher-card h3 {
+      margin-top: 0;
+      color: #0077cc;
+    }
+    footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Koidu Kool</h1>
+  <p>Центр помощи в обучении для школьников 1–9 классов</p>
+</header>
+
+<nav>
+  <a href="#about">О нас</a>
+  <a href="#teachers">Преподаватели</a>
+  <a href="#schedule">Расписание</a>
+  <a href="#math">Математика</a>
+  <a href="#payment">Оплата</a>
+  <a href="#signup">Регистрация</a>
+  <a href="#terms">Условия</a>
+  <a href="#contacts">Контакты</a>
+</nav>
+
+<section id="about" style="background-color:#fffdf4;">
+  <p><strong>RU:</strong> Цель центра Koidu Kool — помощь школьникам в освоении программ обучения на родном языке, при этом сохраняется использование материалов на эстонском языке. Мы помогаем с переводом и изучением терминологии, чтобы школьники могли уверенно чувствовать себя как в русскоязычной, так и в эстонской образовательной среде. Особое внимание мы уделяем индивидуальному подходу, гибкости и поддержке — чтобы обучение стало доступным, понятным и интересным.</p>
+  <p><strong>ET:</strong> Koidu Kooli eesmärk on aidata õpilastel omandada õppekava emakeeles, säilitades samas õppe- ja terminoloogilise materjali kasutamise eesti keeles. Me aitame tõlkimisel ja terminite mõistmisel, et õpilased tunneksid end kindlalt nii vene- kui ka eestikeelses hariduskeskkonnas. Eriti pöörame tähelepanu individuaalsele lähenemisele, paindlikkusele ja toetusele – et õppimine oleks kättesaadav, arusaadav ja huvitav.</p>
+</section>
+
+<section id="teachers" style="background-color:#eef1f5;">
+  <div class="teacher-card">
+    <h3>Анжелика Куликова – русский язык, математика, предметы начальной школы</h3>
+    <p><strong>Образование:</strong> Таллиннское педагогическое училище, Псковский государственный университет. Специальность: учитель начальных классов.</p>
+    <p><strong>Опыт:</strong> 37 лет педагогической деятельности. Дополнительные занятия по русскому языку и математике, работа в подготовительной школе.</p>
+    <p><strong>Подход:</strong> уверенность, самостоятельность, любознательность. "Научиться учиться — с интересом и без слёз."</p>
+  </div>
+</section>
+
+<section id="schedule" style="background-color:#f0f9f1;">
+  <h2>Расписание</h2>
+  <p>Занятия проходят в группах до 8 человек. Один академический час = 45 минут.</p>
+  <table>
+    <tr><th>Класс</th><th>Группа</th><th>Дни</th><th>Время</th><th>Часы в неделю</th></tr>
+    <tr><td>3</td><td>A</td><td>Вт, Чт</td><td>14:00–17:00</td><td>6 ак. ч.</td></tr>
+    <tr><td>3</td><td>B</td><td>Ср, Пт</td><td>14:00–17:00</td><td>6 ак. ч.</td></tr>
+    <tr><td>4</td><td>A</td><td>Пн, Ср</td><td>15:00–18:00</td><td>6 ак. ч.</td></tr>
+    <tr><td>4</td><td>B</td><td>Вт, Чт</td><td>15:00–18:00</td><td>6 ак. ч.</td></tr>
+    <tr><td>5</td><td>-</td><td>Пн, Ср, Пт</td><td>16:00–18:00</td><td>6 ак. ч.</td></tr>
+    <tr><td>6</td><td>-</td><td>Вт, Чт</td><td>16:00–18:30</td><td>6 ак. ч.</td></tr>
+    <tr><td>7</td><td>-</td><td>Пн, Чт</td><td>18:30–20:00</td><td>4 ак. ч.</td></tr>
+    <tr><td>8</td><td>-</td><td>Вт, Пт</td><td>18:30–20:00</td><td>4 ак. ч.</td></tr>
+    <tr><td>9</td><td>-</td><td>Ср, Сб</td><td>Ср: 18:30–20:00, Сб: 11:00–12:30</td><td>4 ак. ч.</td></tr>
+  </table>
+</section>
+
+<section id="math" style="background-color:#eaf3fb;">
+  <h2>Программа по математике</h2>
+  <p><strong>RU:</strong> Занятия в группах 4–9 классов:</p>
+  <ul>
+    <li>4–6 классы: повторение, текстовые задачи, логика, счёт</li>
+    <li>7–8 классы: контрольные, уравнения, проценты, геометрия</li>
+    <li>9 класс: подготовка к экзамену, типовые задания</li>
+  </ul>
+</section>
+
+<section id="payment" style="background-color:#fff0f0;">
+  <h2>Оплата</h2>
+  <p>Стоимость обучения — <strong>170 евро в месяц</strong>. Включает все занятия, материалы и обратную связь.</p>
+</section>
+
+<section id="signup" style="background-color:#f6f6f6;">
+  <h2>Форма регистрации</h2>
+  <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfsthaE61uIxvjbuL0BawgKM6wyqu3q9eIzixbTa7Ip2reFSw/viewform?embedded=true" width="100%" height="984" frameborder="0" marginheight="0" marginwidth="0">Загрузка…</iframe>
+</section>
+
+<section id="terms" style="background-color:#fffdf4;">
+  <h2>Условия обучения</h2>
+  <p>Обучение проводится на русском языке с использованием материалов на эстонском. Все занятия оформляются по договору. Пропущенные занятия можно отработать индивидуально.</p>
+</section>
+
+<section id="contacts" style="background-color:#eef1f5;">
+  <h2>Контакты</h2>
+  <p>Адрес: Koidu 97b, Tallinn 10139, Estonia</p>
+  <p>Телефон: <a href="tel:+37253052002">+372 530 520 02</a></p>
+  <p>Email: <a href="mailto:koidukool97@gmail.com">koidukool97@gmail.com</a></p>
+  <p>Регистрационный номер: 80330622</p>
+  <p>Председатель правления: Рейсман Наталия</p>
+</section>
+
+<footer>
+  &copy; 2025 Koidu Kool. Все права защищены.
+</footer>
+
+</body>
+</html>
